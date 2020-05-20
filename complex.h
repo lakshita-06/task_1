@@ -14,4 +14,9 @@
     		i=imag;
     	}
         friend std::ostream &operator<<(std::ostream &output ,complex &t);
+        
+        complex operator+(complex);
+        complex operator-(complex);
+        complex operator*(complex);
+
  };
